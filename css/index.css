@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#rightcol {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 630px;
+	width: 718px;
+	background-color: #666;
+	background-image: url(../images/bg_index.jpg);
+}
+
+#content_index {
+	margin-top: 89px;
+	margin-right: 70px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+}

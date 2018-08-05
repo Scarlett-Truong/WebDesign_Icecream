@@ -1,0 +1,37 @@
+@charset "utf-8";
+#rightcol_recipes {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 630px;
+	width: 720px;
+	background-color: #666;
+	background-image: url(../images/bg_recipes.jpg);
+}
+#left {
+	margin: 0px;
+	width: 180px;
+	padding-top: 80px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	float: left;
+}
+#center {
+	margin: 0px;
+	width: 180px;
+	padding-top: 80px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	float: left;
+}
+#right {
+	margin: 0px;
+	width: 180px;
+	padding-top: 80px;
+	padding-right: 70px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	float: left;
+}

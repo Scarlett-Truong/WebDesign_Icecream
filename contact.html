@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function changePic(num){
+		document.getElementById("bigImg").src = "images/img"+num+".png"
+		}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<link href="css/about.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="MM_preloadImages('images/home_over.png','images/about_over.png','images/recipes_over.png','images/contact_over.png')">
+<div id="container">
+  <div id="header"><img src="images/header_02.jpg" width="950" height="120" /></div><!--end header -->
+  
+  <div id="leftcol">
+    <div id="nav">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home Page','','images/home_over.png',1)"><img src="images/home.png" alt="Home Page" name="Home Page" width="210" height="74" border="0" id="Home Page" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="about.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('About ','','images/about_over.png',1)"><img src="images/about.png" alt="About" name="About " width="210" height="76" border="0" id="About " /></a></td>
+  </tr>
+  <tr>
+    <td><a href="recipes.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('recipes','','images/recipes_over.png',1)"><img src="images/recipes.png" alt="recipes" name="recipes" width="210" height="75" border="0" id="recipes" /></a></td>
+  </tr>
+  <tr>
+    <td><a href="contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('contact','','images/contact_over.png',1)"><img src="images/contact_over.png" alt="contact" name="contact" width="210" height="75" border="0" id="contact" /></a></td>
+  </tr>
+</table>
+
+    </div><!--end nav bar -->
+  </div>
+  <!--end left col -->
+  <div id="rightcol_about">
+    <div id="content_about">
+      <h4>SNOWEE STORES</h4>
+      
+     <p>
+
+1. Snowee – Vincom B2-03B,70-72 Le Thanh Ton Street District 1 TPHCM
+
+<br/>2. Snowee – 103 Vo Van Tan District 3 TPHCM
+
+<br/>3. Snowee – SB41 KP My Phuc, Phu My hung District 7 TPHCM
+
+<br/>4. Snowee – Tan Son Nhat airport, dosmestic- TPHCM</p>
+
+<h4>CONTACT</h4>
+<img src="images/bird_16.png" width="300" height="220" />
+<p>
+Email: snowee.vp@snowee.com.vn
+
+<br/>Tel: (848) 3873 4779
+
+<br/>Fax: (848) 387 34626</p>
+    </div>
+  </div><!--end right col -->
+  <div id="footer"> Copyright &copy; 2012. Snowee Creamery Pte. Ltd. All right reserved.</div>
+</div><!--end container -->
+</body>
+</html>
